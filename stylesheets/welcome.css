@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+img {
+    padding: 3px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    
+}
+
+.main_col {
+    flex: 70%;
+}
+
+.tab_col {
+    flex: 30%;
+}
+
+body { background-image: url('../images/background.png'); font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 14px; font-size: 1.4rem; line-height: 1; color: #222222; position: relative; -webkit-font-smoothing: antialiased; }
+
+h1 { 
+    font-size: 44px;
+    /* position: absolute; */
+    text-align: center;    
+}
+
+h2 { 
+    font-size: 37px;
+    text-align: center;
+}
+
+h3 , h4, h5, span {
+	margin: 0;
+}
+
+h3 {
+	font-size: 16rem;
+}
+
+h4 {
+	font-size: 3rem;
+}
+
+h5 {
+	font-size: 1.4rem;
+}
+
+span {
+	font-size: 6rem;
+	font-weight: 600;
+}
+
+.container {
+	max-width: 550px;
+	height: 100vh;
+	border: 1px solid black;
+	margin: 0 auto;
+	text-align: center;
+	display: grid;
+	grid-template-rows: 20% 80%;
+	padding: 25px 5px;
+}
+
+.degrees {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	margin-left: 2rem;
+}
+
+.img_w {
+	width: 80px;
+	filter: grayscale(100%);
+}
+
