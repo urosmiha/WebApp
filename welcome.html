@@ -3,52 +3,76 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="stylesheets/welcome.css">
-<!-- 
-<style>
 
-</style> -->
+
 
 </head>
 <body>
 
+    <div class="sidenav">
+            <a href="welcome.html">Home</a>
+            <hr>
+            <canvas id="canvas" class="clock"></canvas>
+            <script src="javascript/clock.js"></script>
+            <hr>
+            
+            <div class="container">
+                <h4 id="city">Auckland</h4>
+                <div class="middle">
+                    <img class="img_w" src="" alt="icon" id="icon">
+                    <div class="degrees">
+                        <h3 id="temp">15</h3>
+                        <span>&#176;</span>
+                    </div>
+                    <h5 id="desc">Sunny</h5>
+                </div> 
+            </div>
+            <script src="javascript/weather.js"></script>
+    </div>
+
     <h1> Hello everybody</h1>
     <h2> welcome to my web page</h2>
 
-    <div class="row">
-        <div class="tab_col">
-            <!-- <link rel="stylesheet" href="stylesheets/weather.css"> -->
-                <div class="container">
+    <div class="main">
 
-                    <h4 id="city">Leeds</h4>
+        <div class="row">
+            <!-- <div class="tab_col"> -->
+                <!-- <link rel="stylesheet" href="stylesheets/weather.css"> -->
+
+                    <!-- <div class="container">
+                        <h4 id="city">Auckland</h4>
+                        <div class="middle">
+                            <img class="img_w" src="" alt="icon" id="icon">
+                            <div class="degrees">
+                                <h3 id="temp">15</h3>
+                                <span>&#176;</span>
+                            </div>
+                            <h5 id="desc">Sunny</h5>
+                        </div> 
+                    </div> -->
+                <!-- </link> -->
+            <!-- </div> -->
+            <div class="main_col">
+                <div class="row">
+                    <div class="column">
+                        
+                        <img src="images/music_cover.jpg" alt="Music" style="width:100%">
+                    </div>
                     
-                    <div class="middle">
-                        <img class="img_w" src="" alt="icon" id="icon">
-                        <div class="degrees">
-                            <h3 id="temp">19</h3>
-                            <span>&#176;</span>
-                        </div>
-                        <h5 id="desc">Sunny</h5>
-                    </div> 
+                    <div class="column">
+                            <img src="images/hoop_cover.jpg" alt="BBall" style="width:100%">
+                    </div>
                 </div>
-            <!-- </link> -->
-        </div>
-        <div class="main_col">
-            <div class="row">
-                <div class="column">
-                    <img src="images/music_cover.jpg" alt="Music" style="width:100%">
-                </div>
-                
-                <div class="column">
-                        <img src="images/hoop_cover.jpg" alt="BBall" style="width:100%">
-                </div>
-            </div>
-            <div class="row">
-                <div class="column">
-                        <img src="images/game_cover.jpg" alt="GameCover" style="width:100%">
-                </div>
-                
-                <div class="column">
-                        <img src="images/aboutme_cover.jpg" alt="AboutMe" style="width:100%">
+                <div class="row">
+                    <div class="column">
+                        <a href="flappy.html">
+                            <img src="images/game_cover.jpg" alt="GameCover" style="width:100%">
+                        </a>
+                    </div>
+                    
+                    <div class="column">
+                            <img src="images/aboutme_cover.jpg" alt="AboutMe" style="width:100%">
+                    </div>
                 </div>
             </div>
         </div>
